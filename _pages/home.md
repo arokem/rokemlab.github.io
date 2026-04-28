@@ -1,12 +1,12 @@
 ---
-title: "The UW Neuroinformatics R&D Group "
+title: "The Rokem R&D Group"
 layout: homelay
-excerpt: "The UW Neuroinformatics R&D Group"
+excerpt: "The Rokem R&D Group"
 sitemap: false
 permalink: /
 ---
 
-The Neuroinformatics R&D Group at the University of Washington [Psychology Department](https://psych.uw.edu/) and [eScience Institute](https://escience.washington.edu/) conducts research on the biological basis of brain function using computational tools that we develop and maintain.
+The Rokem R&D Group at the [Krembil Center for Neuroinformatics](http://krembilneuroinformatics.ca/) conducts research on the biological basis of brain function using computational tools that we develop and maintain.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <ol class="carousel-indicators">
@@ -25,7 +25,7 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
             <a href="https://autofq.org"><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/white-matter-connections.gif" alt="Slide 1" /></a>
         </div>
          <div class="item">
-            <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cloud_city.png" alt="Slide 7" /></a>
+            <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cloudy_toronto.png" alt="Slide 7" /></a>
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/neurohack-collage.png" alt="Slide 3" />
