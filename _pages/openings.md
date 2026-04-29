@@ -22,7 +22,7 @@ There are no current open positions, but see below
 Do not feel limited to responding to the open positions above. We consider
 unsolicited applications for postdocs, PhD students, Master students,
 postbaccalaureates, and undergraduates. If you are interested in working with
-us, please send an [email](mailto:arokem@uw.edu) and feel free to contact any of
+us, please send an [email](mailto:Ariel.Rokem@camh.ca) and feel free to contact any of
 our current team members to inquire about our research culture. Please attach a
 CV and briefly describe your research interests. There is no need for a separate
 cover letter or certificates. **Important**: please insert _"Application PhD"_,
