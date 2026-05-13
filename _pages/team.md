@@ -118,16 +118,3 @@ Jump to [staff](#staff), [alumni](#alumni), [collaborators](#collaborators).
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-## Collaborators
-
-<div class="row">
-
-<div class="col-sm-6 clearfix">
-{% for member in site.data.collaborators %}
-<a href="{{member.website}}">{{ member.name }}</a>
-{% endfor %}
-</div>
-
-
-</div>
