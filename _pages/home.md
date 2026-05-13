@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-The Rokem R&D Group at the [Krembil Center for Neuroinformatics](http://krembilneuroinformatics.ca/) conducts research on the biological basis of brain function using computational tools that we develop and maintain.
+The Rokem R&D Group at the [Krembil Centre for Neuroinformatics](http://krembilneuroinformatics.ca/) conducts research on the biological basis of brain function using computational tools that we develop and maintain.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <ol class="carousel-indicators">
@@ -55,7 +55,7 @@ The Rokem R&D Group at the [Krembil Center for Neuroinformatics](http://krembiln
 
 We are grateful for funding from The [University of Washington eScience Institute](https://escience.washington.edu), from the National Institute for Mental Health, the National Institute for Biomedical Imaging and Bioengineering, The National Science Foundation and the Chan Zuckerberg Initiative, as well as support fom Amazon Web Services, Google Cloud Platform, and Microsoft Azure.
 
-For more information about why and how we do what we do, please visit our [standard operating procedures](https://nrdg.github.io/sop)
+For more information about why and how we do what we do, please visit our [standard operating procedures](https://rokemlab.github.io/sop)
 
 <figure class="fourth">
   <a href="https://www.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIH.png" style="width: 100px"></a>

@@ -1,3 +1,50 @@
+
+- title: "Free water elimination tractometry for aging brains"
+  image: fwe.png
+  description: "Tractometry of diffusion-weighted magnetic resonance imaging (dMRI) non-invasively quantifies tissue properties of brain connections. It is widely used in aging studies but could be less reliable in aging brains due to increased white matter free water. We demonstrate that computational free water elimination (FWE) and multi-shell multi-tissue (MSMT) modeling both increase the reliability and accuracy of tractometry in a large (n = 396) cohort of older adults (65-103 y.o.). We found substantial improvements in reliability in a split-half comparison at every stage of the pipeline: estimation of voxel-level fiber orientation distribution functions, delineation of major pathway trajectories, and assessment of tissue properties along the pathways. FWE in particular provided better tractography yield, that included more coverage of areas of leukoaraiosis. However, tractometry was strongly predictive of Fazekas scores, which assess the extent of white matter hyperintensity (WMH) burden, regardless of method. This indicates that increased WMH burden is associated with global changes to white matter. By sub-sampling a multi-shell dataset, we demonstrated that these findings generalize to single-shell data, which is important for many datasets where only one b-value may be available. Overall, the results highlight the importance of accounting for free water in tractometry studies, especially in aging brains. We provide open-source software for free-water elimination that can be applied to a wide range of clinical and research datasets (https://github.com/nrdg/fwe)."
+  link:
+    url: https://direct.mit.edu/imag/article/doi/10.1162/IMAG.a.991/133658/Free-water-elimination-tractometry-for-aging
+    display: "Imaging Neuroscience 3: IMAG.a.991"
+  authors: Kelly Chang, Luke Burke, Nina LaPiana, Bradley Howlett, David Hunt, Margaret Dezelar, Jalal B. Andre, Patti Curl, James D. Ralston, Ariel Rokem, Christine L. Mac Donald
+  highlight: 1
+  connectomics: 1
+  open: 1
+  news2:
+
+- title: "What needs to be standardized for reliable, reproducible, and robust tractography?"
+  image:
+  description: "Tractography is a key component of efforts to map brain connectivity. As a rapidly evolving field of neuroscience, current tractography methods are diverse, often varying across research laboratories and different software pipelines. Therefore, it suffers from a lack of standardization, leading to inconsistencies in results, which can limit reproducibility and affect the robustness needed for research and clinical applications of these methods. Variability in data acquisition procedures, inconsistencies in spatial referencing schemes and implementations, and anatomical heterogeneity—at the individual level, across the lifespan, and across species—hinder comparative analyses. Additionally, the lack of consensus on best practices complicates the development of robust automated quality control pipelines and limits the clinical translation of tractography-based procedures. Establishing standardized protocols for acquisition, preprocessing, and tractography reconstruction is critical toward enabling reliable tract-specific analyses, facilitating cross-study harmonization, and supporting replicable large-scale population studies. The present article provides an overview of the current challenges in tractography standardization and identifies the key aspects that require standardization for reliable, reproducible, and robust tractography."
+  link:
+    url: https://doi.org/10.1093/gigascience/giag034
+    display: "GigaScience, 15: giag034"
+  authors: Jon Haitz Legarreta, Simona Schiavi, Wei Tang, Garrett Banks, Matthew Cieslak, Kurt Schilling, Alberto De Luca, Jacques-Donald Tournier, John Kruper, Francois Rheault, Stamatios N Sotiropoulos, Franco Pestilli, Jelle Veraart, Joseph Yuan-Mou Yang, Maxime Descoteaux, Sarah Heilbronner, Ariel Rokem
+  connectomics: 1
+  open: 1
+  news2:
+
+- title: "Microstructural Alterations of the Cerebellum-Ventral Tegmental Area Pathways in First-Episode Psychosis"
+  image:
+  description: "The cerebellum plays a critical role in higher-order cognition and motivation, in part through its direct projections to dopaminergic midbrain structures such as the ventral tegmental area (VTA). Although cerebellar dysconnectivity is a robust feature of schizophrenia, the microstructural tissue properties of cerebellar-VTA white-matter pathways have not been examined in first-episode psychosis (FEP). *Methods*: We used diffusion-weighted MRI (dMRI) and probabilistic tractography to reconstruct cerebellar-VTA pathways in 46 participants with FEP and 30 healthy controls. Cerebellar-VTA tracts (ipsi- and contra-lateral) were defined using anatomically-informed inclusion and exclusion regions of interest. Mean diffusivity (MD) and fractional anisotropy (FA) were quantified using the diffusional kurtosis model along each tract. Group differences were assessed using generalized additive mixed models, controlling for age, sex, head motion and medication. Associations between tract properties and cognitive performance from the MATRICS Consensus Cognitive Battery were evaluated. *Results*: FEP patients showed significantly lower MD along both ipsilateral and contralateral cerebellar-VTA pathways in both hemispheres, with effects distributed across large portions of each tract. Lower MD in the contralateral cerebellar-VTA pathways was significantly associated with poorer working memory performance in patients, while a similar association for the ipsilateral pathway was observed in the left hemisphere. *Conclusions*: This study provides the first evidence that cerebellar-VTA white-matter pathways are microstructurally altered at the early stage of psychosis, and that these alterations are linked to memory deficits. The results refine models of cerebellar dysconnectivity in schizophrenia by implicating a specific cerebellar-midbrain dopaminergic pathway as a potential substrate of cognitive dysfunction."
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S2451902226000947
+    display: "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, in press"
+  authors: Halil Aziz Velioglu, Teresa Gomez, Juan A. Gallego, Todd Lencz, Anil K. Malhotra, Ariel Rokem, Hengyi Cao
+  connectomics: 1
+  news2:
+
+- title: "A software ecosystem for brain tractometry processing, analysis, and insight"
+  image: tractometry_ecosystem.png
+  description: "The human brain is a highly inter-connected system. Information about the environment and about internal states is effectively distributed and integrated through neural pathways that rapidly transmit signals between distant brain regions through large nerve fiber bundles. Measurements of diffusion MRI (dMRI) are sensitive to the trajectory of these nerve fiber pathways within the brain, and to their physical properties. We developed a suite of scalable open-source software tools that process dMRI data and delineate brain pathways and connections within it, quantifying the physical properties of brain tissue along the length of each pathway in an individualized manner. We demonstrate that the software is extensible to a variety of new studies, and offers useful approaches for visualization and statistical analysis, including novel machine learning tools. We also demonstrate that novel computational methods that we developed offer substantial speed-up, offering scalability for new large-scale datasets."
+  link:
+    url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013323
+    display: "PLoS Comput Biol 21(8): e1013323."
+  authors: John Kruper, Adam Richie-Halford, Joanna Qiao, Asa Gilmore, Kelly Chang, Mareike Grotheer, Ethan Roy, Sendy Caffarra, Teresa Gomez, Sam Chou, Matthew Cieslak, Serge Koudoro, Eleftherios Garyfallidis, Theodore D. Satterthwaite, Jason D. Yeatman, Ariel Rokem
+  highlight: 1
+  ai: 1
+  connectomics: 1
+  open: 1
+  news2:
+
 - title: "Convolutional neural network-based classification of glaucoma using optic radiation tissue properties"
   image: ukbb_glaucoma.png
   description: "Sensory changes due to aging or disease can impact brain tissue. This study aims to investigate the link between glaucoma, a leading cause of blindness, and alterations in brain connections. We analyzed diffusion MRI measurements of white matter tissue in a large group, consisting of 905 glaucoma patients (aged 49-80) and 5292 healthy individuals (aged 45-80) from the UK Biobank. Confounds due to group differences were mitigated by matching a sub-sample of controls to glaucoma subjects. We compared classification of glaucoma using convolutional neural networks (CNNs) focusing on the optic radiations, which are the primary visual connection to the cortex, against those analyzing non-visual brain connections. As a control, we evaluated the performance of regularized linear regression models. We showed that CNNs using information from the optic radiations exhibited higher accuracy in classifying subjects with glaucoma when contrasted with CNNs relying on information from non-visual brain connections. Regularized linear regression models were also tested, and showed significantly weaker classification performance. Additionally, the CNN was unable to generalize to the classification of age-group or of age-related macular degeneration. Our findings indicate a distinct and potentially non-linear signature of glaucoma in the tissue properties of optic radiations. This study enhances our understanding of how glaucoma affects brain tissue and opens avenues for further research into how diseases that affect sensory input may also affect brain aging."
@@ -5,9 +52,9 @@
     url: https://www.nature.com/articles/s43856-024-00496-w
     display: "Communications Medicine volume 4, Article number: 72 (2024)"
   authors: John Kruper, Adam Richie-Halford, Noah C Benson, Sendy Caffarra, Julia Owen, Yue Wu, Catherine Egan, Aaron Y Lee, Cecilia S Lee, Jason D Yeatman, Ariel Rokem & UK Biobank Eye and Vision Consortium
-  highlight: 1
+  highlight:
+  ai: 1
   connectomics: 1
-  vision: 1
   news2:
 
 - title: "Tractometry of Human Visual White Matter Pathways in Health and Disease"
@@ -17,9 +64,8 @@
     url: https://www.jstage.jst.go.jp/article/mrms/23/3/23_rev.2024-0007/_article
     display: "Magnetic Resonance in Medical Sciences, 23(3), 2024"
   authors: Hiromasa Takemura, John Kruper, Toshikazu Miyata, & Ariel Rokem
-  highlight: 1
+  highlight:
   connectomics: 1
-  vision: 1
   news2:
 
 
@@ -30,7 +76,7 @@
     url: https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1389680/full
     display: "Front. Neurosci., 11 June 2024"
   authors: John Kruper, McKenzie P Hagen, François Rheault, Isaac Crane, Asa Gilmore, Manjari Narayan, Keshav Motwani, Eardi Lila, Chris Rorden, Jason D Yeatman & Ariel Rokem
-  highlight: 1
+  highlight:
   connectomics: 1
 
 
@@ -52,9 +98,8 @@
     url: https://onlinelibrary.wiley.com/doi/10.1002/hbm.26267
     display: "Human Brain Mapping 44 (8), 3123-3135"
   authors: John Kruper, Noah C. Benson, Sendy Caffarra, Julia Owen, Yue Wu, Aaron Y. Lee, Cecilia S. Lee, Jason D. Yeatman, Ariel Rokem & UK Biobank Eye and Vision Consortium
-  highlight: 1
+  highlight:
   connectomics: 1
-  vision: 1
   news2:
 
 - title: "The benefits of prefetching for large-scale cloud-based neuroimaging analysis workflows"
@@ -63,7 +108,7 @@
     url: https://ieeexplore.ieee.org/abstract/document/9652624
     display: "2021 IEEE Workshop on Workflows in Support of Large-Scale Science (WORKS)"
   authors: Valerie Hayot-Sasson, Tristan Glatard & Ariel Rokem
-  cloud: 1
+  open: 1
   news2:
 
 - title: "An open, analysis-ready, and quality controlled resource for pediatric brain white-matter research"
@@ -73,8 +118,8 @@
     url: https://www.biorxiv.org/content/10.1101/2022.02.24.481303v1
     display: "Scientific Data  9, 616"
   authors: Adam Richie-Halford, Matthew Cieslak, Lei Ai, Sendy Caffarra, Sydney Covitz, Alexandre R. Franco, Iliana I. Karipidis, John Kruper, Michael Milham, Bárbara Avelar-Pereira, Ethan Roy, Valerie J. Sydnor, Jason Yeatman, The Fibr Community Science Consortium, Theodore D. Satterthwaite, Ariel Rokem
-  highlight: 1
   connectomics: 1
+  open: 1
   news2:
 
 - title: "Evaluating the reliability of human brain white matter tractometry"
@@ -95,8 +140,9 @@
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009136
     display: "PLoS Computational Biology: 17(6): e1009136"
   authors: Adam Richie-Halford, Jason Yeatman,  Noah Simon & Ariel Rokem
-  highlight: 1
+  highlight:
   connectomics: 1
+  ai: 1
   news2:
 
 - title: "Combining citizen science and deep learning to amplify expertise in neuroimaging"
@@ -106,8 +152,10 @@
     url: https://anisha.pizza/braindr-results/
     display:  "Frontiers in Neuroinformatics, 13: 29"
   authors: Anisha Keshavan, Jason Yeatman & Ariel Rokem
-  highlight: 1
   connectomics: 1
+  ai: 1
+  open: 1
+  highlight: 1
   news2:
 
 
@@ -119,8 +167,7 @@
     display:  "Proceedings of the 17th Python in Science Conference (2018): 8 - 14 "
   authors: Adam Richie-Halford & Ariel Rokem
   news2:
-  cloud: 1
-
+  open: 1
 
 - title: "A browser-based tool for visualization and analysis of diffusion MRI data"
   image: afqbrowser.png
@@ -129,8 +176,7 @@
     url: https://www.nature.com/articles/s41467-018-03297-7
     display:  "Nature Communications: 9, Article number: 940"
   authors: Jason Yeatman, Adam Richie-Halford, Josh Smith, Anisha Keshavan & Ariel Rokem
-  highlight: 1
   connectomics: 1
-  cloud: 1
+  open: 1
   news2:
 

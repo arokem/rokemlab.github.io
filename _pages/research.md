@@ -8,11 +8,41 @@ permalink: /research/
 
 # Research
 
-The brain is a tremendously complex system. In order to understand it we are going to need large amounts of data from many different kinds of measurements. We use data science methods to integrate the information provided by these measurements into a coherent picture. In particular, we develop image processing pipelines, statistical analysis techniques, and visualization tools to decipher the role of networks of brain areas in development, in complex behaviors and in brain disorders. We implement these methods in robust, efficient, and openly-available computer software.
+Our work is devoted to advancing understanding of the brain through data-driven
+discovery, focusing on the role of brain networks in a range of behaviors and
+on how these networks change across the lifespan, through experience, and in
+neurological and psychiatric diseases.
+
+Our approach stems from a conviction that scientific progress requires not only
+isolated discoveries but also integrative infrastructure and supportive
+community practices enabling knowledge to be shared, verified, and built upon.
+We take a highly collaborative approach, working with researchers across
+complementary domains to translate advances in artificial intelligence and
+machine learning into impactful insights about the brain.
+
+Our commitment to transparent and reproducible science means that all of our
+research outputs – from data and software, through publications and educational
+materials – are openly available. This ensures that publicly funded research
+benefits the broadest possible audience while maintaining potential for
+clinical and commercial translation.
 
 ## Human Connectomics
 
-White matter connections between brain regions form a network that integrates information across the brain, comprising approximately 45% of the total cortical volume. Diffusion MRI (dMRI) is a technique that non-invasively measures properties of the white matter, assessing individual differences in the properties of the major tracts. We develop computational tools for analysis of dMRI data, and apply these tools in large-scale datasets of human neuroimaging data to understand the brain and the complex relationships between the properties of brain networks, complex behavior and brain health.
+Networks of brain regions and their joint activity give rise to coordinated
+information processing and to the complex adaptive behavior that characterizes
+human cognition. The proper function of brain networks is also crucial to
+neurological, cognitive, and psychiatric health. Therefore, a better
+understanding of brain networks is a major goal of contemporary neuroscience.
+Diffusion MRI (dMRI) is the only currently available method to measure and
+delineate white matter connections *in vivo* in a non-invasive matter.
+
+We focus on a dMRI analysis approach known as ``tractometry''. This approach
+uses dMRI measurements to assess the physical properties of long-range brain
+connections within every individual. We develop and maintain cutting edge
+methods to perform tractometry and we have established an integrative ecosystem
+of software that implements all of the steps of tractometry: post-processing of
+dMRI data, delineation of major white matter pathways, and modeling of the
+tissue properties within them.
 
 ### Tools and publications:
 
@@ -26,16 +56,18 @@ White matter connections between brain regions form a network that integrates in
 {% endfor %}
 
 
-## Vision science
+## Developing interpretable AI methods for neuroimaging
 
-We work on modeling and analysis of the biology of the early visual system. In some projects, we created phenomenological models of
-retinal processing, that simulate prosthetic vision. These models, implemented in software are useful for assessing the utility
-of these devices and as tools for designing new devices and stimulation protocols. In other projects, we analyze data about
-retinal health from large-scale databases. We are also interested to understand how the biology of networks in the early visual
-system evolves over time, and in response to disease.
+To make progress in addressing the range of disorders and conditions that
+affect the aging human brain, including neurodegenerative disorders, it is
+vital that we capitalize on the rapid advances that are happening in artificial
+intelligence and machine learning. However, it is also crucial that we develop
+tools that are transparent and amenable to interpretation.
+
+### Tools and publications:
 
 {% for publi in site.data.publist %}
-  {% if publi.vision == 1 %}
+  {% if publi.ai == 1 %}
 
   {{ publi.title }} <br />
     <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
@@ -43,32 +75,14 @@ system evolves over time, and in response to disease.
 
 {% endfor %}
 
+## Building open-source infrastructure for reproducible neuroscience
 
-## Cloud-enabled data-driven discovery
-
-Progress in understanding the brain depends on sophisticated analysis of massive neuroscience datasets. This requires the adoption of data science technologies that are emerging in industry, such as cloud computing. One of the objectives of our work is to reduce the barriers to wider adoption of these technologies. We are exploring multiple aspects of cloud computing. This includes development of software for deployment of computations to cloud systems, as well as work on web-based tools for data visualization and apps for citizen science.
-
+We are embedded in a network of
 
 ### Tools and publications:
 
 {% for publi in site.data.publist %}
-  {% if publi.cloud == 1 %}
-
-  {{ publi.title }} <br />
-    <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  {% endif %}
-
-{% endfor %}
-
-## Data science
-
-As we apply tools from statistical learning to problems in neuroscience, we also end up developing general purpose
-open-source statistical computing tools. Our group is also involved in a variety of ways in data science education and training.
-
-### Tools and publications:
-
-{% for publi in site.data.publist %}
-  {% if publi.datasci == 1 %}
+  {% if publi.open == 1 %}
 
   {{ publi.title }} <br />
     <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
