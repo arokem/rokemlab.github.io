@@ -8,7 +8,7 @@ permalink: /publications/
 
 # Selected publications
 
-For a full list please visit [Google Scholar](https://scholar.google.com/citations?user=hrBeLVYAAAAJ&hl=en)
+## For a full list please visit [Google Scholar](https://scholar.google.com/citations?user=hrBeLVYAAAAJ&hl=en)
 
 
 {% assign number_printed = 0 %}
